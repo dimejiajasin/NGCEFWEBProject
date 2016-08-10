@@ -1,414 +1,229 @@
-@media (min-width: 768px) and (max-width: 979px) {
-	#menu {
-		display: none;	
-	}
-	
-	#mobile-nav {
-    	display: block;
-		float: right;
-	}
-	
-	#menu-nav-mobile {
-		margin: 0;
-	}
-	
-	header .sticky-nav #mobile-nav,
-	header .sticky-nav.stuck #mobile-nav {
-		margin-right: 20px;	
-	}
-	
-	#social-area #social ul li {
-		margin-left: 15px;
-	}
-	
-	#social-area #social ul li a {
-		width: 50px;
-		height: 50px;
-	}
-	
-	#social-area #social ul li a span {
-		font-size: 24px;
-		line-height: 50px;
-	}
-	
-	#twitter-feed {
-		padding-top: 110px;
-		padding-bottom: 110px;	
-	}
-	
-	.info-block a.button {
-    	margin-top: 20px;
-    	position: inherit;
-	}
-	
-	.info-text {
-		padding-right: 0;	
-	}
+/* lg */ 
+@media (min-width: 1200px) {
+
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
-	#back-to-top {
-		display: none !important;	
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+ 	.navbar-right li a {
+		font-size: 12px;
+		padding-right: 10px;
 	}
-	
-	#home-slider {
-		margin-left: -20px;
-		margin-right: -20px;
+	.social-icons ul li {
+		margin-bottom: 10px;
 	}
-	
-	header .sticky-nav {
-		position: relative;	
-	}
-	
-	header .sticky-nav,
-	#navigation-mobile,
-	.page,
-	.page-alternate,
-	#twitter-feed,
-	footer {
-		margin-left: -20px;
-		margin-right: -20px;
-		padding-left: 20px;
-		padding-right: 20px;	
-	}
-	
-	header .sticky-nav #logo {
-		margin-left: 0;
-	}
-	
-	header .sticky-nav.stuck #logo {
-		margin-left: 20px;	
-	}
-	
-	header .sticky-nav #menu {
-		margin-right: 0;
-	}
-	
-	header .sticky-nav.stuck #menu {
-		margin-right: 20px;	
-	}
-	
-	#menu {
-		display: none;	
-	}
-	
-	#mobile-nav {
-    	display: block;
-		float: right;
-	}
-	
-	#menu-nav-mobile {
-		margin-left: -20px;
-		margin-right: -20px;
-		margin-bottom: 0;
-	}
-	
-	header .sticky-nav.stuck #mobile-nav {
-		margin-right: 20px;	
-	}
-	
-	.work-nav {
-		margin-bottom: 30px;	
-	}
-	
-	.type-work {
-		background: url(../img/filter-icon.png) no-repeat;
-		width: 16px;
-		height: 16px;
-		display: inline-block;
-		text-indent: -9999px;
-		margin-bottom: 0;
-		position: relative;
-		line-height: 10px;
-	}
-	
-	.work-nav #filters,
-	.work-nav #filters li {
-		display: inline-block;
-	}
-	
-	.work-nav #filters li {
-		margin:0 10px 0 0;	
-	}
-	
-	.work-nav #filters li a {
-		font-size: 13px;
-		text-transform: uppercase;	
-	}
-	
-	#about .profile {
-		margin-bottom: 30px;	
-	}
-	
-	#about .profile:last-child {
-		margin-bottom: 0;	
-	}
-	
-	#response {
-		margin-bottom: 30px;	
-	}
-	
-	.contact-details {
-		border-top: 1px dashed #3C3F45;
-		padding-top: 30px;
-		text-align: center;	
-	}
-	
-	#contact-form .submit {
-		width: 100%;
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		box-sizing: border-box;	
-	}
-	
-	#social-area #social ul li:first-child,
-	#social-area #social ul li {
-		margin: 15px;
-	}
-	
-	#social-area #social ul li a {
-		width: 50px;
-		height: 50px;
-	}
-	
-	#social-area #social ul li a span {
-		font-size: 24px;
-		line-height: 50px;
-	}
-	
-	#twitter-feed {
-		padding-top: 90px;
-		padding-bottom: 100px;	
-	}
-	
-	#ticker .tweet_list li {
+	.price {
 		font-size: 16px;
-		line-height: 24px;
-	}
-	
-	#ticker .tweet_list .tweet_time a {
-		font-size: 13px;
-		margin-left: 5px;	
-	}
-	
-	.info-block a.button {
-    	margin-top: 20px;
-    	position: inherit;
-		display: block;
-	}
-	
-	.info-text {
-		padding-right: 0;	
-	}
-}
-
-@media (max-width: 480px) {
-	#back-to-top {
-		display: none !important;	
-	}
-	
-	#home-slider {
-		margin-left: -20px;
-		margin-right: -20px;
-	}
-	
-	#home-slider ul#slide-list {
-		display: none;	
-	}
-	
-	header .sticky-nav {
-		position: relative;	
-	}
-	
-	header .sticky-nav,
-	#navigation-mobile,
-	.page,
-	.page-alternate,
-	#twitter-feed,
-	footer {
-		margin-left: -20px;
-		margin-right: -20px;
-		padding-left: 20px;
-		padding-right: 20px;	
-	}
-	
-	header .sticky-nav #logo {
-		margin-left: 0;
-	}
-	
-	header .sticky-nav.stuck #logo {
-		margin-left: 20px;	
-	}
-	
-	header .sticky-nav #menu {
-		margin-right: 0;
-	}
-	
-	header .sticky-nav.stuck #menu {
-		margin-right: 20px;	
-	}
-	
-	#menu {
-		display: none;	
-	}
-	
-	#mobile-nav {
-    	display: block;
-		float: right;
-	}
-	
-	#menu-nav-mobile {
-		margin-left: -20px;
-		margin-right: -20px;
-		margin-bottom: 0;
-	}
-	
-	#navigation-mobile li a {
-		font-size: 14px;
-		padding: 12px 0;
-	}
-	
-	header .sticky-nav.stuck #mobile-nav {
-		margin-right: 20px;	
-	}
-	
-	.work-nav {
-		margin-bottom: 30px;	
-	}
-	
-	.type-work {
-		background: url(../img/filter-icon.png) no-repeat;
-		width: 16px;
-		height: 16px;
-		display: inline-block;
-		text-indent: -9999px;
-		margin-bottom: 0;
-		position: relative;
-		line-height: 10px;
-	}
-	
-	.work-nav #filters li:first-child {
-		margin-left: 0;	
-	}
-	
-	.work-nav #filters,
-	.work-nav #filters li {
-		display: inline-block;
-	}
-	
-	.work-nav #filters li {
-		margin:0 10px 0 0;	
-	}
-	
-	.work-nav #filters li a {
-		font-size: 13px;
-		text-transform: uppercase;	
-	}
-	
-	#about .profile {
-		margin-bottom: 30px;	
-	}
-	
-	#about .profile:last-child {
-		margin-bottom: 0;	
-	}
-	
-	#response {
-		margin-bottom: 30px;	
-	}
-	
-	.contact-details {
-		border-top: 1px dashed #3C3F45;
-		padding-top: 30px;
-		text-align: center;	
-	}
-	
-	#contact-form .submit {
+		height: 110px;
+		line-height: 30px;
 		width: 100%;
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		box-sizing: border-box;	
 	}
-	
-	#social-area #social ul li:first-child,
-	#social-area #social ul li {
-		margin: 15px;
+	.price span {
+		font-size: 40px;
+		margin-top: 27px;
 	}
-	
-	#social-area #social ul li a {
-		width: 50px;
-		height: 50px;
+	.btn-signup {
+		padding: 10px 20px;
 	}
-	
-	#social-area #social ul li a span {
-		font-size: 24px;
-		line-height: 50px;
-	}
-	
-	#twitter-feed {
-		padding-top: 90px;
-		padding-bottom: 100px;	
-	}
-	
-	#ticker .tweet_list li {
+}
+
+/* xs */
+@media (max-width: 767px) {
+	body {
 		font-size: 14px;
-		line-height: 22px;
 	}
-	
-	#ticker .tweet_list .tweet_time a {
+	#home-slider .caption h1 {
+		font-size: 40px;
+	}
+	#home-slider .caption {
+		font-size: 15px;
+		padding: 0 30px;
+	}
+	.left-control, .right-control {
+		font-size: 20px;
+		height: 30px;
+		line-height: 25px;
+		width: 30px;
+	}
+	#home-slider:hover .right-control {
+		right: 15px;
+	}
+	#home-slider:hover .left-control {
+		left: 15px;
+	}
+	.caption .btn-start {
 		font-size: 12px;
-		margin-left: 3px;	
+		padding: 10px 30px;
 	}
-	
-	.info-block a.button {
-    	margin-top: 20px;
-    	position: inherit;
-		display: block;
+	.navbar-brand {
+		padding: 0 15px 15px;
 	}
-	
-	.info-text {
-		padding-right: 0;	
+	.navbar-toggle {
+	  border:1px solid #fff;
+	}
+
+	.navbar-toggle .icon-bar {
+	  background-color: #fff;
+	}
+	.navbar-right li a {
+		font-size: 13px;
+		padding-bottom: 8px;
+		padding-top: 10px;
+	}
+
+	/*services*/
+	section {
+		padding: 45px 0;
+	}
+	.heading {
+		font-size: 14px;
+		padding-bottom: 45px;
+	}
+	.heading h2 {
+		font-size: 26px;
+	}
+	.service-info h3 {
+		font-size: 20px;
+	}
+	.our-services .col-sm-4 {
+		margin-bottom: 32px;
+		padding-bottom: 20px;
+	}
+	.our-services .col-sm-4:nth-child(4), 
+	.our-services .col-sm-4:nth-child(5), 
+	.our-services .col-sm-4:nth-child(6) {
+		padding-top: 0;
+	}
+	.service-icon {
+		font-size: 30px;
+		height: 65px;
+		line-height: 62px;
+		width: 65px;
+	}
+	.our-services .col-sm-4:hover .service-icon:before {
+		height: 90px;
+		width: 90px;
+	}
+	.about-info {
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.team-member {
+		margin-bottom: 50px;
+	}
+	.team-members .col-sm-3, 
+	.pricing-table .col-sm-3, 
+	#portfolio .col-sm-3, 
+	.blog-posts .col-sm-4  {
+		width: 50%;
+		float: left;
+	}
+	.social-icons ul li a {
+		font-size: 14px;
+		height: 30px;
+		line-height: 30px;
+		width: 30px;
+	}	
+	.count .col-xs-6 {
+		margin-bottom: 35px;
+	}
+	#features {
+		min-height: 330px;
+	}
+	#features i {
+		font-size: 35px;
+	}
+	#features h3 {
+		font-size: 25px;
+	}
+	.price span {
+		font-size: 50px;
+		margin-top: 25px;
+	}
+	.price {
+		font-size: 18px;
+		height: 110px;
+		line-height: 35px;
+		width: 130px;
+	}
+	.single-table ul {
+		margin-top: 22px;
+	}
+	.single-table ul li {
+		font-size: 14px;
+		margin-top: 15px;
+	}
+	.btn-signup {
+		font-size: 12px;
+		margin-top: 25px;
+		padding: 10px 35px;
+	}
+	.single-table{
+		margin-bottom: 40px;
+		padding: 20px;
+	}
+	#twitter {
+		padding-bottom: 75px;
+	}
+	.twitter-left-control, 
+	.twitter-right-control {
+		top: inherit;
+		bottom: 30px;
+		height: 25px;
+		width: 25px;
+		line-height: 23px;
+		font-size: 14px;
+	}
+	.twitter-left-control {
+		left: 40%
+	} 
+	.twitter-right-control {
+		right: 40%
+	}
+	#blog {
+		overflow: hidden;
+	}
+	.entry-header h2 {
+		line-height: 20px;
+	}
+	.blog-posts .col-sm-4 {
+		margin-bottom: 35px;
+	}
+	.load-more {
+		margin-top: 35px;
+	}
+	.btn-loadmore {
+		font-size: 12px;
+		padding: 15px 75px;
+	}
+	#contact-us .heading {
+		padding-top: 35px;
+	}
+	.contact-info {
+		padding-left: 0;
+	}
+	#footer .footer-bottom {
+		text-align: center;
+	}
+	.footer-bottom p.pull-right {
+		float: none !important;
 	}
 }
 
-@media (max-width: 320px) {
-	#navigation-mobile li a {
-		padding: 20px 0;
-	}
-	
-	.work-nav #filters li a {
-		font-size: 12px;
-	}
-	
-	#twitter-feed {
-		padding-top: 90px;
-		padding-bottom: 120px;	
+/* XS Portrait */
+@media (max-width: 479px) {
+  
+	.team-members .col-sm-3, 
+	.pricing-table .col-sm-3, 
+	#portfolio .col-sm-3, 
+	.blog-posts .col-sm-4 {
+		width:100%;
+		float: none;
 	}
 }
-
-
-/* Retina Display */
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
- 	only screen and (-moz-min-device-pixel-ratio: 2),
-  	only screen and (-o-min-device-pixel-ratio: 2/1),
-  	only screen and (min-device-pixel-ratio: 2),
-  	only screen and (min-resolution: 2dppx) {
-		
-		header #logo a {
-			background-image: url(../img/logo_@2x.png);
-			background-size: 96px 30px;
-		}
-		
-		.menu-nav {
-			background-image: url(../img/menu-mobile_@2x.png);
-			background-size: 16px 32px;
-		}
-		
-		.type-work {
-			background-image: url(../img/filter-icon_@2x.png);
-			background-size: 16px 16px;
-		}
-	}
-
 

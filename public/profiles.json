@@ -1,0 +1,41 @@
+[
+    {
+        "_id": "57a1eae6dce093d24f95476f",
+        "index": 0,
+        "picture": "http://placehold.it/620x620",
+        "title": "Dr.",
+        "status": "Founder/ CEO",
+        "name": {
+            "first": "Sheri",
+            "last": "Ajasin"
+        },
+        "description": "Having held many impacting positions namely, teacher at Queens college, lecturer at the Faculty of Education, University of Lagos, and lecturer at the Department of creative arts, University of Lagos, Dr Sheri Ajasin retired voluntarily in 2002 to set up Ajasiwon Koncepts (AK), a company that educates through the arts.",
+        "level": "Board Member",
+        "email": "baldwin.lott@portaline.net",
+        "phone": "+234 (802) 320-3792",
+        "address": "32 Kayode Taiwo Street, Magodo GRA PHASE II, Shangisha.",
+        "state": "Lagos State",
+        "Country": "Nigeria",
+        "Zip": "23401"
+    },
+    {
+        "_id": "57a1eae6dce093d24f95476f",
+        "index": 1,
+        "picture": "http://placehold.it/32x32",
+        "title": "Mr.",
+        "status": "CFR CBE",
+        "name": {
+            "first": "Akintola",
+            "last": "Williams"
+        },
+        "description": "The first African to qualify as a chartered accountant, Akintola Williams founded his firm in 1952 which grew organically to become the largest professional services firm in Nigeria. Williams participated in foundng the Nigerian Stock Exchange and the Institute of Chartered Accountants of Nigeria. Williams has held many public sector positions including: Chairman of the Federal Income Tax Appeal Commissioners. member of the Coker Commission of inquiry into the statutory corporations of the former western region of Nigeria, member of the board of trustees of the commonwealth foundation, chairman of the Lagos State Revenue Collection Panel,chairman of the Public service review panel, to mention a few. In 1982, Williams was honoured by the Nigerian Government with the Order of the Federal Republic(OFR). fOLLOWING RETIREMENT IN 1983, Williams threw himself into a project to establish a music center and concert hall for the Music Society of Nigeria. In April 1997, Williams was appointed as a Commander of the Most Excellent Order of the British Empire for services to the accountancy profession and for promotion of arts, culture and music through the Musical Society of Nigeria. The Akintola Williams Arboretum at the Nigerian Conservation Foundation headquaters in Lagos is named in his honor. on the 8th of May, 2011 the Nigeria-Britain Association presented awards to John Kufour, past president of Ghana, and to Akintola Williams, for their contribution to democracy and development in Africa. ",
+        "level": "PATRON",
+        "email": "baldwin.lott@portaline.net",
+        "phone": "+234 (802) 320-3792",
+        "address": "32 Kayode Taiwo Street, Magodo GRA PHASE II, Shangisha.",
+        "state": "Lagos State",
+        "Country": "Nigeria",
+        "Zip": "23401"
+    },
+
+]
