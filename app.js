@@ -10,7 +10,7 @@ var port = 5000;
 app.engine('html', engines.nunjucks);
 app.set('view engine', 'html')
 app.use(express.static('public'));
-app.use(express.static('/src/views'));
+app.set('views', __dirname + '/src/views');
 
 
 app.get('/', function (req, res) {
