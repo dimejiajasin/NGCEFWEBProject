@@ -4,8 +4,11 @@
 
 var express = require('express');
 var app = express();
+var engines = require('consolidate');
 var port = 5000;
 
+app.engine('html', engines.nunjucks);
+app.set('view engine', 'html')
 app.use(express.static('public'));
 app.use(express.static('/src/views'));
 
