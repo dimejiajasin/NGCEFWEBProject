@@ -13,6 +13,7 @@
   "dependencies": {
     "consolidate": "^0.14.1",
     "express": "^4.14.0",
+    "google-maps": "^3.2.1",
     "nunjucks": "^2.4.2"
   }
 }
