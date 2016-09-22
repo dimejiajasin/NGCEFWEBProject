@@ -6,7 +6,7 @@ a,
 .single-table.featured .btn.btn-primary, 
 .contact-info ul li a:hover, 
 #footer .footer-bottom a  {
-  color: #028fcc;
+  color: #ccae00;
 }
 
 .btn.btn-primary:hover,
@@ -34,7 +34,7 @@ a:hover, a:focus {
 .left-control:hover, 
 .right-control:hover, 
 .folio-overview a:hover {
-  background-color:#028fcc;
+  background-color: #32CD32;
 }
 
 .twitter-left-control:hover, 
@@ -50,5 +50,5 @@ a:hover, a:focus {
 }
 
 .twitter-icon .fa-twitter:after {
-	border-color: #028fcc transparent transparent;
+	border-color: #32cd32 transparent transparent;
 }
